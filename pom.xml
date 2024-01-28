@@ -31,8 +31,12 @@
             <version>2.11.0</version>
             <type>jar</type>
         </dependency>
-        
-    </dependencies>
+        <dependencia>
+          <groupId>org.hibernate.orm</groupId>
+          <artifactId>núcleo de hibernación</artifactId>
+         <versión>6.4.2.Final</versión>
+        </dependencia>
+       </dependencies>
     
     <build>
         <plugins>
@@ -45,11 +49,7 @@
                     <target>11</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version>
-            </plugin>
+            
         </plugins>
     </build>
 </project>
